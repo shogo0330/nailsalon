@@ -1,0 +1,22 @@
+/*Foot.js*/
+footer {
+  margin-top: 20px;
+}
+
+.footer-list {
+  border-top: 0.5px solid #ddd;
+}
+
+.footer-items {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  gap: 8px;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.footer-items li:not(:last-child) {
+  border-right: 1px solid #777777;
+  padding-right: 10px;
+}
